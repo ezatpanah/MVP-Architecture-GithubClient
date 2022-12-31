@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvNameRepo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RepoName"
+            android:textColor="#2B2B2B"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvUpdateDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Updated on 7 Feb 2021"
+            android:textColor="#2B2B2B"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvNameRepo" />
+
+        <ImageView
+            android:id="@+id/imgLang"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/ic_round_language_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvUpdateDate"
+            app:tint="#412E2E2E" />
+
+        <TextView
+            android:id="@+id/tvLang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="Kotlin"
+            android:textColor="#504F4F"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@id/imgLang"
+            app:layout_constraintStart_toEndOf="@id/imgLang"
+            app:layout_constraintTop_toTopOf="@id/imgLang" />
+
+
+        <ImageView
+            android:id="@+id/imgStar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            app:srcCompat="@drawable/ic_round_star_24"
+            app:layout_constraintBottom_toBottomOf="@id/imgLang"
+            app:layout_constraintStart_toEndOf="@id/tvLang"
+            app:layout_constraintTop_toTopOf="@id/imgLang"
+            app:tint="#412E2E2E" />
+
+        <TextView
+            android:id="@+id/tvStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="12sp"
+            android:textColor="#504F4F"
+            app:layout_constraintBottom_toBottomOf="@id/imgStar"
+            app:layout_constraintStart_toEndOf="@id/imgStar"
+            app:layout_constraintTop_toTopOf="@id/imgStar" />
+
+        <ImageView
+            android:id="@+id/imgFork"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            app:srcCompat="@drawable/ic_git_fork_svgrepo_com"
+            app:layout_constraintBottom_toBottomOf="@id/imgStar"
+            app:layout_constraintStart_toEndOf="@id/tvStar"
+            app:layout_constraintTop_toTopOf="@id/imgStar"
+            app:tint="#412E2E2E" />
+
+        <TextView
+            android:id="@+id/tvFork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="12sp"
+            android:textColor="#504F4F"
+            app:layout_constraintBottom_toBottomOf="@id/imgFork"
+            app:layout_constraintStart_toEndOf="@id/imgFork"
+            app:layout_constraintTop_toTopOf="@id/imgFork" />
+
+        <ImageView
+            android:id="@+id/imgVisibility"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_twotone_lock_open_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgMore"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            app:srcCompat="@drawable/ic_baseline_more_vert_24"
+            app:layout_constraintEnd_toEndOf="@id/imgVisibility"
+            app:layout_constraintStart_toStartOf="@id/imgVisibility"
+            app:layout_constraintTop_toTopOf="@id/tvNameRepo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
