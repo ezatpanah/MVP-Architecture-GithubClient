@@ -1,11 +1,11 @@
 # GithubClient-MVP
 
-OpenSource Project
+<h3>OpenSource Project</h3>
 <br>
 Google Play link :
+<br>
 https://play.google.com/store/apps/details?id=com.ezatpanah.githubclient&pli=1
 <br>
-<a href="https://play.google.com/store/apps/details?id=com.ezatpanah.githubclient&pli=1" target="_blank"><img alt="Ezatpanah Flow-Database-Youtube" src="screenshot/GitHub-Client-GooglePlayStore.jpg" width="60%"></a>
 
 Overview :
 
