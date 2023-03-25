@@ -1,7 +1,6 @@
 # GithubClient-MVP
 
 <h3>OpenSource Project</h3>
-<br>
 Google Play link :
 <br>
 https://play.google.com/store/apps/details?id=com.ezatpanah.githubclient&pli=1
