@@ -1,5 +1,12 @@
 # GithubClient-MVP
 
+OpenSource Project
+<br>
+Google Play link :
+https://play.google.com/store/apps/details?id=com.ezatpanah.githubclient&pli=1
+<br>
+
+
 Overview :
 
 The purpose of this application is to provide a list of user’s GitHub repositories and show the details of each repository :
