@@ -13,7 +13,7 @@ android {
         applicationId "com.ezatpanah.githubclient"
         minSdk 21
         targetSdk 33
-        versionCode 2
+        versionCode 3
         versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
